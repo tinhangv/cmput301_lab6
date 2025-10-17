@@ -1,5 +1,7 @@
 package com.example.listycitylab6;
 
+import java.util.Objects;
+
 /**
  * This is a class that defines a City.
  */
