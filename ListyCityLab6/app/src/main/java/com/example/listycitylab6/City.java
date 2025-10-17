@@ -72,7 +72,7 @@ public class City implements Comparable<City>{
      */
     @Override
     public int hashCode(){
-        return this.city.hashCode() + this.province.hashCode();
+        return Objects.hash(city, province);
     }
 
 
